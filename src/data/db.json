@@ -1,0 +1,649 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123456",
+      "fullName": "مدیر فروشگاه",
+      "role": "admin"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "آینه و کنسول",
+      "slug": "mirror-console",
+      "parentId": null
+    },
+    {
+      "id": "2",
+      "name": "آینه دیواری",
+      "slug": "wall-mirror",
+      "parentId": 1
+    },
+    {
+      "id": "3",
+      "name": "آینه ایستاده",
+      "slug": "standing-mirror",
+      "parentId": 1
+    },
+    {
+      "id": "4",
+      "name": "کنسول",
+      "slug": "console",
+      "parentId": 1
+    },
+    {
+      "id": "5",
+      "name": "گلدان و گیاهان تزئینی",
+      "slug": "vase-plants",
+      "parentId": null
+    },
+    {
+      "id": "6",
+      "name": "گلدان سفالی",
+      "slug": "clay-vase",
+      "parentId": 5
+    },
+    {
+      "id": "7",
+      "name": "گلدان شیشه‌ای",
+      "slug": "glass-vase",
+      "parentId": 5
+    },
+    {
+      "id": "8",
+      "name": "شمع و استند",
+      "slug": "candle-stand",
+      "parentId": null
+    },
+    {
+      "id": "9",
+      "name": "شمع معطر",
+      "slug": "scented-candle",
+      "parentId": 8
+    },
+    {
+      "id": "10",
+      "name": "جا شمعی",
+      "slug": "candle-holder",
+      "parentId": 8
+    },
+    {
+      "id": "11",
+      "name": "تابلو و دیوارکوب",
+      "slug": "wall-art",
+      "parentId": null
+    },
+    {
+      "id": "12",
+      "name": "ساعت دکوراتیو",
+      "slug": "decorative-clock",
+      "parentId": null
+    },
+    {
+      "name": "باع",
+      "slug": "bae/",
+      "parentId": 4,
+      "id": "SAqtKFwHopE"
+    },
+    {
+      "name": "aaaa",
+      "slug": "aaaa",
+      "parentId": null,
+      "id": "JTfkLtef2jc"
+    },
+    {
+      "name": "ff",
+      "slug": "ff",
+      "parentId": null,
+      "id": "6cmfWaIgtXY"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "آینه دیواری مدرن",
+      "price": 2500000,
+      "discount": 10,
+      "description": "آینه طرح دار با فریم طلایی، مناسب پذیرایی",
+      "categoryId": 2,
+      "stock": 15,
+      "rating": 4.5,
+      "colors": [
+        "طلایی",
+        "نقره‌ای"
+      ],
+      "sizes": [
+        "کوچک",
+        "متوسط"
+      ],
+      "images": [
+        "/images/product1-1.jpg"
+      ],
+      "createdAt": "2026-05-20",
+      "updatedAt": "2026-05-22"
+    },
+    {
+      "id": "2",
+      "title": "گلدان سرامیکی دست‌ساز",
+      "price": 850000,
+      "discount": 0,
+      "description": "گلدان سرامیکی با لعاب مات",
+      "categoryId": 6,
+      "stock": 30,
+      "rating": 4,
+      "colors": [
+        "سفید",
+        "کرم"
+      ],
+      "sizes": [
+        "متوسط"
+      ],
+      "images": [
+        "/images/product2-1.jpg"
+      ],
+      "createdAt": "2026-05-18",
+      "updatedAt": "2026-05-21"
+    },
+    {
+      "id": "3",
+      "title": "شمع معطر وانیلی",
+      "price": 350000,
+      "discount": 5,
+      "description": "شمع دست‌ساز با رایحه وانیل و ماندگاری بالا",
+      "categoryId": 9,
+      "stock": 50,
+      "rating": 4.8,
+      "colors": [
+        "سفید"
+      ],
+      "sizes": [
+        "کوچک",
+        "بزرگ"
+      ],
+      "images": [
+        "/images/product3-1.jpg"
+      ],
+      "createdAt": "2026-05-19",
+      "updatedAt": "2026-05-21"
+    },
+    {
+      "id": "4",
+      "title": "کنسول چوبی کلاسیک",
+      "price": 4500000,
+      "discount": 15,
+      "description": "کنسول چوب گردو با طراحی کلاسیک",
+      "categoryId": 4,
+      "stock": 8,
+      "rating": 4.7,
+      "colors": [
+        "قهوه‌ای"
+      ],
+      "sizes": [
+        "متوسط"
+      ],
+      "images": [
+        "/images/product4-1.jpg"
+      ],
+      "createdAt": "2026-05-10",
+      "updatedAt": "2026-05-15"
+    },
+    {
+      "id": "5",
+      "title": "تابلو دیواری انتزاعی",
+      "price": 1200000,
+      "discount": 0,
+      "description": "تابلو نقاشی مدرن با رنگ‌های زنده",
+      "categoryId": 11,
+      "stock": 12,
+      "rating": 4.2,
+      "colors": [
+        "چندرنگ"
+      ],
+      "sizes": [
+        "بزرگ"
+      ],
+      "images": [
+        "/images/product5-1.jpg"
+      ],
+      "createdAt": "2026-05-16",
+      "updatedAt": "2026-05-18"
+    },
+    {
+      "id": "6",
+      "title": "ساعت دیواری مینیمال",
+      "price": 980000,
+      "discount": 20,
+      "description": "ساعت دیواری با طراحی ساده و مدرن",
+      "categoryId": 12,
+      "stock": 25,
+      "rating": 4.3,
+      "colors": [
+        "مشکی",
+        "سفید"
+      ],
+      "sizes": [
+        "متوسط"
+      ],
+      "images": [
+        "/images/product6-1.jpg"
+      ],
+      "createdAt": "2026-05-12",
+      "updatedAt": "2026-05-14"
+    },
+    {
+      "id": "7",
+      "title": "آینه ایستاده تمام‌قد",
+      "price": 3200000,
+      "discount": 10,
+      "description": "آینه قدی با قاب آلومینیومی",
+      "categoryId": 3,
+      "stock": 7,
+      "rating": 4.6,
+      "colors": [
+        "نقره‌ای"
+      ],
+      "sizes": [
+        "بزرگ"
+      ],
+      "images": [
+        "/images/product7-1.jpg"
+      ],
+      "createdAt": "2026-05-09",
+      "updatedAt": "2026-05-13"
+    },
+    {
+      "id": "8",
+      "title": "جا شمعی فلزی",
+      "price": 520000,
+      "discount": 0,
+      "description": "جا شمعی فلزی طرح هندسی",
+      "categoryId": 10,
+      "stock": 40,
+      "rating": 4.1,
+      "colors": [
+        "طلایی",
+        "مسی"
+      ],
+      "sizes": [
+        "کوچک"
+      ],
+      "images": [
+        "/images/product8-1.jpg"
+      ],
+      "createdAt": "2026-05-15",
+      "updatedAt": "2026-05-17"
+    },
+    {
+      "id": "9",
+      "title": "گلدان شیشه‌ای استوانه‌ای",
+      "price": 680000,
+      "discount": 5,
+      "description": "گلدان شیشه‌ای شفاف با قطر متغیر",
+      "categoryId": 7,
+      "stock": 35,
+      "rating": 4.4,
+      "colors": [
+        "شفاف"
+      ],
+      "sizes": [
+        "متوسط",
+        "بزرگ"
+      ],
+      "images": [
+        "/images/product9-1.jpg"
+      ],
+      "createdAt": "2026-05-14",
+      "updatedAt": "2026-05-18"
+    },
+    {
+      "id": "10",
+      "title": "شمع معطر اسطوخودوس",
+      "price": 280000,
+      "discount": 0,
+      "description": "شمع طبیعی با عصاره اسطوخودوس",
+      "categoryId": 9,
+      "stock": 60,
+      "rating": 4.9,
+      "colors": [
+        "بنفش"
+      ],
+      "sizes": [
+        "کوچک"
+      ],
+      "images": [
+        "/images/product10-1.jpg"
+      ],
+      "createdAt": "2026-05-21",
+      "updatedAt": "2026-05-22"
+    },
+    {
+      "id": "11",
+      "title": "تابلو سه‌تکه مدرن",
+      "price": 1850000,
+      "discount": 10,
+      "description": "تابلو سه‌تکه با طرح طبیعت",
+      "categoryId": 11,
+      "stock": 6,
+      "rating": 4,
+      "colors": [
+        "سبز",
+        "آبی"
+      ],
+      "sizes": [
+        "بزرگ"
+      ],
+      "images": [
+        "/images/product11-1.jpg"
+      ],
+      "createdAt": "2026-05-13",
+      "updatedAt": "2026-05-15"
+    },
+    {
+      "id": "12",
+      "title": "آینه دیواری کلاسیک",
+      "price": 2900000,
+      "discount": 0,
+      "description": "آینه دیواری با قاب چوبی منبت‌کاری",
+      "categoryId": 2,
+      "stock": 9,
+      "rating": 4.5,
+      "colors": [
+        "قهوه‌ای",
+        "سفید"
+      ],
+      "sizes": [
+        "متوسط"
+      ],
+      "images": [
+        "/images/product12-1.jpg"
+      ],
+      "createdAt": "2026-05-08",
+      "updatedAt": "2026-05-11"
+    },
+    {
+      "id": "13",
+      "title": "گلدان سفالی نقش‌دار",
+      "price": 420000,
+      "discount": 0,
+      "description": "گلدان سفالی با نقوش سنتی",
+      "categoryId": 6,
+      "stock": 45,
+      "rating": 4.2,
+      "colors": [
+        "آجری",
+        "فیروزه‌ای"
+      ],
+      "sizes": [
+        "کوچک",
+        "متوسط"
+      ],
+      "images": [
+        "/images/product13-1.jpg"
+      ],
+      "createdAt": "2026-05-17",
+      "updatedAt": "2026-05-19"
+    },
+    {
+      "id": "14",
+      "title": "جا شمعی کریستالی",
+      "price": 750000,
+      "discount": 10,
+      "description": "جا شمعی از جنس کریستال با تراش الماس",
+      "categoryId": 10,
+      "stock": 20,
+      "rating": 4.7,
+      "colors": [
+        "شفاف"
+      ],
+      "sizes": [
+        "متوسط"
+      ],
+      "images": [
+        "/images/product14-1.jpg"
+      ],
+      "createdAt": "2026-05-19",
+      "updatedAt": "2026-05-21"
+    },
+    {
+      "id": "15",
+      "title": "ساعت رومیزی دکوراتیو",
+      "price": 1350000,
+      "discount": 15,
+      "description": "ساعت رومیزی با طراحی لوکس",
+      "categoryId": 12,
+      "stock": 10,
+      "rating": 4.4,
+      "colors": [
+        "طلایی"
+      ],
+      "sizes": [
+        "کوچک"
+      ],
+      "images": [
+        "/images/product15-1.jpg"
+      ],
+      "createdAt": "2026-05-18",
+      "updatedAt": "2026-05-20"
+    },
+    {
+      "title": "باع",
+      "price": 262626,
+      "discount": 26,
+      "description": "حالا لا لای لا لای حا لا لای لای ااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتت",
+      "categoryId": null,
+      "stock": 26,
+      "colors": [
+        "سبز",
+        "سفید",
+        "قرمز"
+      ],
+      "sizes": [
+        "26",
+        "25",
+        "24"
+      ],
+      "images": [
+        "blob:http://localhost:5173/e42dcf97-b390-4ed1-a64a-541f5aa62d82",
+        "blob:http://localhost:5173/b09c38c5-f18c-47f5-871d-df6daddbd3a6",
+        "blob:http://localhost:5173/457ec328-fe94-4aeb-b67b-da7461080546"
+      ],
+      "createdAt": "2026-05-29T11:30:55.239Z",
+      "updatedAt": "2026-05-29T11:30:55.247Z",
+      "rating": 0,
+      "id": "gZE7jSSH7Co"
+    },
+    {
+      "title": "بل",
+      "price": 455555444,
+      "discount": 44,
+      "description": "555555555555555غفبببببببببب",
+      "categoryId": 9,
+      "stock": 445,
+      "colors": [
+        "صورتی",
+        "سفید",
+        "زرد"
+      ],
+      "sizes": [
+        "26",
+        "25",
+        "24",
+        "ههه"
+      ],
+      "images": [
+        "blob:http://localhost:5173/a9853752-23d7-4e66-9e0d-6c1454b4c982",
+        "blob:http://localhost:5173/c718ab86-9192-42d5-b067-3bd76564074e"
+      ],
+      "createdAt": "2026-05-29T11:33:18.399Z",
+      "updatedAt": "2026-05-29T11:33:18.399Z",
+      "rating": 0,
+      "id": "57nei1nYH0Q"
+    },
+    {
+      "title": "بل",
+      "price": 455555444,
+      "discount": 44,
+      "description": "555555555555555غفبببببببببب",
+      "categoryId": 9,
+      "stock": 445,
+      "colors": [
+        "صورتی",
+        "سفید",
+        "زرد"
+      ],
+      "sizes": [
+        "26",
+        "25",
+        "24",
+        "ههه"
+      ],
+      "images": [
+        "blob:http://localhost:5173/a9853752-23d7-4e66-9e0d-6c1454b4c982",
+        "blob:http://localhost:5173/c718ab86-9192-42d5-b067-3bd76564074e"
+      ],
+      "createdAt": "2026-05-29T11:33:18.477Z",
+      "updatedAt": "2026-05-29T11:33:18.477Z",
+      "rating": 0,
+      "id": "72zNiIoBI5c"
+    },
+    {
+      "title": "سسسس",
+      "price": 222222,
+      "discount": 22,
+      "description": "2222222222ششششششششششششaaaaaaaa",
+      "categoryId": null,
+      "stock": 22,
+      "colors": [
+        "blue",
+        "بنفش"
+      ],
+      "sizes": [
+        "سسسسسسس",
+        "67"
+      ],
+      "images": [],
+      "createdAt": "2026-05-29T11:35:26.640Z",
+      "updatedAt": "2026-05-29T11:35:26.640Z",
+      "rating": 0,
+      "id": "EFSQ6B73dfc"
+    },
+    {
+      "title": "سس",
+      "price": 11111111,
+      "discount": 11,
+      "description": "1111",
+      "categoryId": null,
+      "stock": 1111109,
+      "colors": [
+        "11111"
+      ],
+      "sizes": [
+        "1111"
+      ],
+      "images": [],
+      "createdAt": "2026-05-29T11:42:14.871Z",
+      "updatedAt": "2026-05-29T11:42:14.871Z",
+      "rating": 0,
+      "id": "uYPbhqV0y-M"
+    },
+    {
+      "title": "aaaaaaaaaaaa",
+      "price": 2,
+      "discount": 3,
+      "description": "AAAAAAAAAAAAAAAA",
+      "categoryId": null,
+      "stock": 3,
+      "colors": [
+        "aaaaaa"
+      ],
+      "sizes": [
+        "aaaaaaa"
+      ],
+      "images": [
+        "blob:http://localhost:5173/8d0eb010-62c1-48da-a07d-8a380a6f9c84"
+      ],
+      "createdAt": "2026-05-29T11:47:58.744Z",
+      "updatedAt": "2026-05-29T11:47:58.746Z",
+      "rating": 0,
+      "id": "5mCjnxjC3vc"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "customerId": 1,
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 2,
+          "price": 2500000
+        }
+      ],
+      "totalAmount": 5000000,
+      "status": "processing",
+      "createdAt": "2026-05-24"
+    },
+    {
+      "id": "2",
+      "customerId": 2,
+      "items": [
+        {
+          "productId": 2,
+          "quantity": 1,
+          "price": 850000
+        },
+        {
+          "productId": 1,
+          "quantity": 1,
+          "price": 2500000
+        }
+      ],
+      "totalAmount": 3350000,
+      "status": "shipped",
+      "createdAt": "2026-05-23"
+    }
+  ],
+  "customers": [
+    {
+      "id": "1",
+      "firstName": "سارا",
+      "lastName": "احمدی",
+      "email": "sara@example.com",
+      "phone": "09121234567",
+      "totalOrders": 3,
+      "totalSpent": 8500000
+    },
+    {
+      "id": "2",
+      "firstName": "محمد",
+      "lastName": "رضایی",
+      "email": "mohammad@example.com",
+      "phone": "09351239876",
+      "totalOrders": 1,
+      "totalSpent": 3350000
+    }
+  ],
+  "discounts": [
+    {
+      "id": "1",
+      "code": "NOROOZ",
+      "percent": 15,
+      "maxUsage": 100,
+      "usedCount": 23,
+      "expireDate": "2026-06-01",
+      "isActive": true
+    },
+    {
+      "code": "ABS",
+      "percent": 25,
+      "maxUsage": 1000000000,
+      "expireDate": "2026-05-29",
+      "isActive": true,
+      "usedCount": 0,
+      "id": "hkLTd_Nxx-E"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

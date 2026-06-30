@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Alibaba";
+    src: url("../assets/fonts/Alibaba-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Alibaba";
+    src: url("../assets/fonts/Alibaba-Bold.ttf") format("woff2");
+    font-weight: 700;
+    font-display: swap;
+  }
+  /* اگر وزن‌های بیشتری داری، مشابه بالا اضافه کن */
+
+  html {
+    font-family: "Alibaba", sans-serif;
+  }
+
+  body {
+    @apply bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100;
+    direction: rtl;
+  }
+}
+
+/* استایل اسکرول‌بار سفارشی */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  margin: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+  margin: 3px 4px;  /* فاصله از بالا/پایین و چپ/راست */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #d1d5db; /* gray-300 */
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af; /* gray-400 */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:active {
+  background: #6b7280; /* gray-500 - رنگ تیره‌تر هنگام کلیک */
+}
+
+/* دارک مود */
+.dark .custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #4b5563; /* gray-600 */
+}
+
+.dark .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #6b7280; /* gray-500 */
+}
+
+.dark .custom-scrollbar::-webkit-scrollbar-thumb:active {
+  background: #9ca3af; /* gray-400 - روشن‌تر شدن هنگام کلیک در دارک مود */
+}
